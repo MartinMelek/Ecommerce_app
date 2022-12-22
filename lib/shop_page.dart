@@ -11,7 +11,7 @@ class ShopPage extends StatelessWidget {
     return Scaffold(
       drawer: NavigationDrawer(),
       body: Padding(
-        padding: EdgeInsets.only(top: 40, right: 10, left: 10),
+        padding: EdgeInsets.only(top: 60, right: 10, left: 10),
         child: Column(
           children: [
             Row(
@@ -79,7 +79,7 @@ class ShopPage extends StatelessWidget {
                     ),
                   ),
                 ),
-                SizedBox(width: 30,),
+                SizedBox(width: 20,),
                 SizedBox(
                   width: 170,
                   height: 170,
@@ -149,7 +149,7 @@ class ShopPage extends StatelessWidget {
                     ),
                   ),
                 ),
-                SizedBox(width: 30,),
+                SizedBox(width: 20,),
                 SizedBox(
                   width: 170,
                   height: 170,

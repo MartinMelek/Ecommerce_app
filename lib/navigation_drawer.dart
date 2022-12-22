@@ -60,11 +60,14 @@ class NavigationDrawer extends StatelessWidget {
                 ],
               ),
             ),
-            SizedBox(height: 530,),
+            SizedBox(height: 580,),
             TextButton(
               onPressed: () async{
                 SharedPreferences prefs = await SharedPreferences.getInstance();
                 prefs.clear();
+                Navigator.pop(context);
+                Navigator.pop(context);
+                Navigator.pop(context);
                 Navigator.pushNamed(context, Routes.loginpage);
               },
               style: TextButton.styleFrom(

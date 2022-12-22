@@ -42,7 +42,7 @@ class ProductTile extends StatelessWidget {
                       color: Colors.black
                   ),
                 ),
-                SizedBox(height: 20,),
+                SizedBox(height: 5,),
                 Text(
                   '\$ $price',
                   style: TextStyle(
@@ -51,6 +51,7 @@ class ProductTile extends StatelessWidget {
                       color: Colors.blue[900]
                   ),
                 ),
+                SizedBox(height: 5,),
               ],
             ),
           ),

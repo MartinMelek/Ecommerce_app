@@ -57,6 +57,7 @@ class _LoginPageState extends State<LoginPage> {
   Widget build(BuildContext context) {
     checkLogin();
     return Scaffold(
+      resizeToAvoidBottomInset : false,
       body: Container(
         padding: EdgeInsets.only(left: 10, top: 100, right: 10),
         child: Column(
